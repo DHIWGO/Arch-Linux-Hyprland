@@ -1,0 +1,49 @@
+{
+  "_comment": "HyprArch Theme Config — editado por el Centro de Control",
+  "_version": "2.0",
+
+  "profile": "normal",
+
+  "colors": {
+    "col_active":     "#5999FF",
+    "col_inactive":   "#32324A",
+    "col_shadow":     "#00000080",
+    "col_bg":         "#1a1b2e",
+    "col_text":       "#e0e0ff",
+    "col_accent":     "#5999FF",
+    "col_warning":    "#f0c040",
+    "col_error":      "#ff6b6b"
+  },
+
+  "borders": {
+    "border_size":    2,
+    "rounding":       10
+  },
+
+  "spacing": {
+    "gaps_in":        5,
+    "gaps_out":       10
+  },
+
+  "opacity": {
+    "active_opacity":   1.0,
+    "inactive_opacity": 0.9
+  },
+
+  "waybar": {
+    "position":   "top",
+    "height":     38,
+    "font_size":  13,
+    "opacity":    0.92
+  },
+
+  "wallpaper": {
+    "path":     "~/.config/hypr/wallpapers/default.jpg",
+    "mode":     "fill"
+  },
+
+  "presets": {
+    "available": ["cyberpunk", "minimalist", "nord", "gruvbox", "catppuccin"],
+    "active":    "default"
+  }
+}
