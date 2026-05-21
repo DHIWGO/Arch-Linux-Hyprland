@@ -1,0 +1,20 @@
+# HyprArch — Archivos auto-generados (no subir al repo)
+hyprarch/hypr/hardware.lua
+hyprarch/hypr/theme.lua
+hyprarch/hypr/active_profile.lua
+hyprarch/hypr/user_binds.lua
+
+# Logs del instalador
+*.log
+/tmp/hyprarch_install.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Temporales
+*.swp
+*.swo
+.DS_Store
